@@ -35,13 +35,10 @@ More example:
     var sys = require('sys');
     // Git("/Users/tim/git/howtonode.org.git");
     Git("/Users/tim/Code/howtonode.org");
-    Git.getHead(function (err, version) {
-      sys.puts("current: " + version);
-      Git.statFile(version, "articles/what-is-this.markdown", function (err, data) {
-        if (err) throw err;
-        sys.p(data);
-        process.exit();
-      });
-    })
+    Git.log("articles/what-is-this.markdown", function (err, data) {
+      if (err) throw err;
+      sys.p(data);
+      process.exit();
+    });
 
 [wheat]: http://github.com/creationix/wheat

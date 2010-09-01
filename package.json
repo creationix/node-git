@@ -1,0 +1,14 @@
+{
+  "name": "git-fs",
+  "description": "Git as a filesystem.",
+  "tags": ["git","vfs","howtonode"],
+  "version": "0.0.3",
+  "author": "Tim Caswell <tim@creationix.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/creationix/node-git.git"
+  },
+  "bugs": "http://github.com/creationix/node-git/issues",
+  "engines": ["node >= 0.2.0"],
+  "main": "lib/git.js"
+}

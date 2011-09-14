@@ -2,7 +2,7 @@
   "name": "git-fs",
   "description": "Git as a filesystem.",
   "tags": ["git","vfs","howtonode"],
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Tim Caswell <tim@creationix.com>",
   "repository": {
     "type": "git",
